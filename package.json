@@ -19,6 +19,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
+    "remotedev": "remotedev-debugger --hostname 192.168.100.28 --port 8000 --injectserver",
     "postinstall": "remotedev-debugger --hostname 192.168.100.28 --port 8000 --injectserver"
   },
   "remotedev": {
